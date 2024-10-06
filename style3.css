@@ -1,0 +1,79 @@
+body {
+    color: rgb(2, 36, 4);
+    background-color: rgb(2, 36, 4);
+    margin: 0;
+    font-family: Arial, sans-serif; /* Tambahkan font agar teks lebih nyaman dibaca */
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.h1-title {
+    color: white;
+    font-size: 2.5em; 
+    text-align: center;
+}
+
+.container-isi {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+}
+
+.h1-isi {
+    color: white;
+    margin-bottom: 20px; 
+}
+
+.container {
+    background-color: rgb(2, 36, 4);
+    height: auto; 
+    padding-bottom: 20px; 
+}
+
+.container-navbar {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: rgb(2, 36, 4);
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.li-navbar {
+    margin: 0 10px; /* Jarak antar elemen navigasi */
+    color: white;
+    font-size: 18px; /* Mengurangi ukuran font sedikit agar terlihat rapi */
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; /* Memberi padding agar tombol navigasi lebih enak dilihat */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Menambah efek saat hover */
+}
+
+.a-navbar:hover {
+    color: rgb(2, 36, 4);
+    background-color: white; /* Memberi efek visual saat navigasi di-hover */
+    border-radius: 5px; /* Membuat sudut lebih lembut */
+}
